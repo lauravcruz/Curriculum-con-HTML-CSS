@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href = "style.css" rel = "stylesheet">
+    <title>Laura Valiente</title>
+</head>
+<body>
+
+    <div class ="container">
+
+        <div class = "cabecera">
+            <div class = "foto">
+                <img src = "foto.jpg" width="40%">
+            </div>
+            <h1>Laura Valiente Cruz</h1>
+            <h2>Desarrollo Web</h2>
+        </div>  
+    </div>
+
+    <div class = "container">  
+        <div class = "izq">
+            <h3>Datos personales</h3>
+            <p><b>Nombre: </b>Laura Valiente Cruz</p>
+            <p><b>Fecha de nacimiento: </b>13/03/1997</p>
+            <p><b>DNI: </b>77864176E</p>
+            <p><b>Docimilio: </b>Plaza la Malagueta nº2 - 7ºC 41020, SEVILLA</p>
+
+            <div class = "datos">
+                <div><img src = "correo.png" width="10%" height="10%"><p>lauravcruz@hotmail.com</p></div>
+                <div><img src = "telefono.png" width="10%" height="10%"><p>654 27 73 90</p></div>
+                <div><img src = "linkedin.png" width = "10%" height="10%"><a href = "https://www.linkedin.com/in/laura-valiente-cruz-973498192/"><p>Laura Valiente</p></a></div>
+                <div><img src = "github.png" width = "10%" height="10%"><p><a href = "https://github.com/lauravcruz">lauravcruz</p></a></div>
+            </div> 
+            <br>  
+    
+
+            <h3>Lenguajes de programación</h3>
+            <div class = "lenguajes">
+
+                <div>
+                    <p>JAVA</p>
+                    <div class = "barra">
+                        <div style = "width: 60%"></div>
+                    </div>
+                </div>
+    
+                <div>
+                    <p>SQL</p>
+                    <div class = "barra">
+                        <div style = "width: 60%"></div>
+                    </div>
+                </div>
+
+               <div>
+                    <p>HTML / CSS</p>
+                    <div class = "barra">
+                        <div style = "width: 50%"></div>
+                    </div>
+                </div>
+                <div>
+                    <p>JAVASCRIPT</p>
+                    <div class = "barra">
+                        <div style = "width: 40%"></div>
+                    </div>
+                </div>
+                
+                <div>
+                    <p>TYPESCRIPT</p>
+                    <div class = "barra">
+                        <div style = "width: 30%"></div>
+                    </div>
+                </div>
+
+            </div><br>
+
+            <h3>Idiomas</h3>
+            <p>Inglés<br><span class = "centro">First Certificated of Cambridge (B2)</span></p>
+            <p>Francés<br><span class = "centro">Nivel medio: oral y escrito</span></p><br>
+            
+            <h3>Intereses</h3>
+            <div class ="datos">
+                <div><img src = "peli.png" width = "10%"><p>Cine y series</p></div>
+                <div><img src = "edit.png" width = "10%"><p>Edición de vídeo</p></div>
+                <div><img src = "juego.png" width = "10%"><p>Videojuegos</p></div>
+            </div>
+            
+        </div>
+
+
+        <div class = "derecha"> 
+           
+            <button onclick = "desplegar('formacion', 'f')"><i id = "f" class ="material-icons">chevron_right</i><b>Formación</b></button> <!--El botón está formado por un icon y un texto. Al pulsarlo, en el javascript, definimos una función que hace que se despliegue la tabla-->
+            <table id = "formacion">
+                <tr>
+                    <td><b>2021-Actualidad</b><br><span class = "centro">Ilerna Sevilla</span></td>
+                    <td class = "titulo">Grado Superior en Desarrollo de Aplicaciones Web</td>
+                </tr>
+        
+                <tr>
+                    <td><b>2019-2020</b><br><span class = "centro">Universidad de Sevilla</span></td>
+                    <td>Máster en Guion, Narrativa y Creatividad Audiovisual</td>
+                </tr>
+              
+                <tr>
+                    <td><b>2015-2019</b><br><span class = "centro">Universidad de Sevilla</span></td>
+                    <td>Grado en Comunicación Audiovisual</td>
+                </tr>
+            </table>
+
+            <button onclick = "desplegar ('complementaria', 'f2')"><i id = "f2" class ="material-icons">chevron_right</i><b>Formación Complementaria</b></button>
+            <table id = "complementaria">
+                <tr>
+                    <td><b>2022</b><br><span class = "centro">Samsung, Bejob</span></td>
+                    <td>Samsung Desarrolladoras Nv3: Desarrollo Full-Stack</td>
+                </tr>
+                <tr>
+                    <td><b>2022</b><br><span class = "centro">Samsung, Bejob</span></td>
+                    <td>Samsung Desarrolladoras Nv2: Desarrollo Front-End</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Samsung, Bejob</span></td>
+                    <td>Samsung Desarrolladoras Nv1: Introducción al Desarrollo Web</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Instituto Andaluz de la Juventud</span></td>
+                    <td>Creación, Programación y Diseño de Páginas Web Dinámicas</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Instituto Andaluz de la Juventud</span></td>
+                    <td>Iniciación a la Creación Digital para Videojuegos</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Instituto Andaluz de la Juventud</span></td>
+                    <td>Programa de UNITY: Scripting y Conceptos Básicos</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Fundación Telefónica</span></td>
+                    <td>Diseño de HTML5 + CSS</td>
+                </tr>
+                <tr>
+                    <td><b>2021</b><br><span class = "centro">Fundación Telefónica</span></td>
+                    <td>Fundamentos de Programación</td>
+                </tr>
+                <tr>
+                    <td><b>2019</b><br><span class = "centro">FEMXA</span></td>
+                    <td class = "titulo">Gestión de comunidades virtuales</td>
+                </tr>   
+
+            </table>
+
+            <button onclick = "desplegar ('experiencia', 'e')"><i id = "e" class ="material-icons">chevron_right</i><b>Experiencia</b></button>
+            <table id = "experiencia">
+                <tr>
+                    <td><b>2019</b></td>
+                    <td class = "titulo"><b>Fundación Audiovisual de Andalucía (RTVA)</b><br>Edición de vídeo, actualización de bases de datos y atención al cliente</td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        <script src = "script.js"></script>
+    
+</body>
+</html>
